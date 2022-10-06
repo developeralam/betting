@@ -1,0 +1,32 @@
+{
+  "name": "financialplugins/omnipay-solana",
+  "type": "library",
+  "description": "Solana driver for the Omnipay payment processing library",
+  "keywords": [
+    "omnipay",
+    "solana",
+    "phantom",
+    "crypto"
+  ],
+  "homepage": "https://github.com/financialplugins/omnipay-solana",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "FinancialPlugins",
+      "email": "info@financialplugins.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Omnipay\\Solana\\" : "src/"
+    }
+  },
+  "minimum-stability": "stable",
+  "require": {
+    "omnipay/common": "^3.0",
+    "php-http/guzzle7-adapter": "*"
+  },
+  "require-dev": {
+    "omnipay/tests": "^3.0"
+  }
+}
